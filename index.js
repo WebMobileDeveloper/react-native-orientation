@@ -70,7 +70,7 @@ module.exports = {
         cb(body.orientation);
       });
   },
-    
+
   removeOrientationListener(cb) {
     var key = getKey(cb);
 
